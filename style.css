@@ -1,0 +1,71 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    background: url(assets/newyearbg.jpg) no-repeat center fixed;
+    background-size: cover;
+    object-fit: cover;
+    background-image: co;
+    max-height: 100vh;
+    width: 100%;
+}
+
+
+.app_newyear-box_content{
+    background-color: rgba(0,0,0,.5);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 150px auto 0;
+    padding: 3rem;
+    border-radius: 1.5rem;
+    max-width: 800px;
+    height: 400px;
+    position: relative;
+
+}
+
+.app_newyear-header{
+    line-height: 1.75;
+    letter-spacing: 1.5px;
+}
+
+.app_newyear-countdown{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 3rem;
+    width: 100%;
+}
+
+.app_newyear-header{
+    color: #FFF;
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+.headtext{
+    color: #fff;
+    font-size: 5rem;
+    font-weight: 400;
+    text-align: center;
+}
+
+.app_newyear-box_content h4{
+    margin-bottom: 25px;
+}
+
+span{
+    color: #FFF;
+    font-size: 1rem;
+    letter-spacing: 1px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
